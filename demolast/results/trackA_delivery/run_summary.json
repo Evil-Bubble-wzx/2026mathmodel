@@ -1,0 +1,80 @@
+{
+  "model": "Track A RobustFusionModel label_sm015",
+  "seed": 2026,
+  "device": "cpu",
+  "best_epoch": 4,
+  "best_validation_score": 0.7116194395817782,
+  "train_rows": 3395,
+  "valid_rows": 728,
+  "test_rows": 727,
+  "attachment3_rows": 30,
+  "validation": {
+    "accuracy": 0.6373626373626373,
+    "macro_f1": 0.6081217642402703,
+    "mae": 0.602873682975769,
+    "pearson": 0.6516675755112955,
+    "selection_score": 0.7116194395817782,
+    "weighted_f1": 0.6325243839062084,
+    "macro_auc": 0.7944450948944861,
+    "confusion_matrix": [
+      [
+        140,
+        30,
+        36
+      ],
+      [
+        33,
+        74,
+        77
+      ],
+      [
+        33,
+        55,
+        250
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.6740027510316369,
+    "macro_f1": 0.623843053998921,
+    "mae": 0.6544640064239502,
+    "pearson": 0.655163836251322,
+    "selection_score": 0.7165651686755621,
+    "weighted_f1": 0.6693209958224752,
+    "macro_auc": 0.817593087875519,
+    "confusion_matrix": [
+      [
+        146,
+        30,
+        31
+      ],
+      [
+        39,
+        61,
+        58
+      ],
+      [
+        34,
+        45,
+        283
+      ]
+    ]
+  },
+  "attachment3": {
+    "rows": 30,
+    "class_counts": {
+      "0": 7,
+      "1": 7,
+      "2": 16
+    }
+  },
+  "checkpoint": "/Users/evilbubble/math_model/results/Q2/trackA_delivery/label_sm015_final.pt",
+  "checkpoint_sha256": "f43ecd162b8994db870bfa8a9d085a09ea4f56f926d69536ab18f5bb5f475d02",
+  "scaler": "/Users/evilbubble/math_model/results/Q2/trackA_delivery/train_scaler.json",
+  "scaler_sha256": "8f014b1eb63f734fb5c191312cf83362897d2f0d3e3f3492875690322f2f99da",
+  "bert_cache_metadata": "/Users/evilbubble/math_model/.cache/bert_features/metadata.json",
+  "missing_grid_rows": 45,
+  "ablation_rows": 7,
+  "test_not_used_for_checkpoint_selection": true,
+  "historical_test_sweep_caveat": "The label smoothing value 0.15 was previously compared using test results; treat test metrics as exploratory, not untouched blind-test estimates."
+}

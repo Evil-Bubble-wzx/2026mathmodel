@@ -1,0 +1,42 @@
+{
+  "tag": "label_sm015",
+  "elapsed_seconds": 158.74604177474976,
+  "best_epoch": 4,
+  "validation": {
+    "accuracy": 0.6373626373626373,
+    "macro_f1": 0.6081217642402703,
+    "mae": 0.602873682975769,
+    "pearson": 0.6516675755112955,
+    "selection_score": 0.7116194395817782
+  },
+  "validation_per_class": {
+    "neutral_f1": 0.4314868804664723,
+    "negative_f1": 0.6796116504854369,
+    "positive_f1": 0.7132667617689016
+  },
+  "test": {
+    "accuracy": 0.6740027510316369,
+    "macro_f1": 0.623843053998921,
+    "mae": 0.6544640064239502,
+    "pearson": 0.655163836251322,
+    "selection_score": 0.7165651686755621
+  },
+  "test_per_class": {
+    "neutral_f1": 0.41496598639455784,
+    "negative_f1": 0.6854460093896714,
+    "positive_f1": 0.771117166212534
+  },
+  "class_weights": [
+    1.0379084759726493,
+    1.1722971058636253,
+    0.7897944181637251
+  ],
+  "device": "cpu",
+  "seed": 2026,
+  "config": {
+    "focal_gamma": 0.0,
+    "consistency_weight": 0.1,
+    "neutral_scale": 1.0,
+    "label_smoothing": 0.15
+  }
+}

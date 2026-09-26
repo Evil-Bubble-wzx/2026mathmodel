@@ -1,0 +1,56 @@
+{
+  "rows": 728,
+  "errors": 264,
+  "accuracy": 0.6373626373626373,
+  "by_true_class": {
+    "负向": {
+      "n": 206,
+      "error_n": 66,
+      "error_rate": 0.32038834951456313
+    },
+    "中性": {
+      "n": 184,
+      "error_n": 110,
+      "error_rate": 0.5978260869565217
+    },
+    "正向": {
+      "n": 338,
+      "error_n": 88,
+      "error_rate": 0.2603550295857988
+    }
+  },
+  "intensity_bins": {
+    "[0,0.5)": {
+      "n": 331,
+      "error_rate": 0.5558912386706949
+    },
+    "[0.5,1.5)": {
+      "n": 266,
+      "error_rate": 0.2518796992481203
+    },
+    "[1.5,3.01)": {
+      "n": 131,
+      "error_rate": 0.09923664122137404
+    }
+  },
+  "observation_group": {
+    "observed_text": {
+      "low_n": 0,
+      "low_error_rate": null,
+      "high_n": 728,
+      "high_error_rate": 0.3626373626373626
+    },
+    "observed_audio": {
+      "low_n": 1,
+      "low_error_rate": 0.0,
+      "high_n": 727,
+      "high_error_rate": 0.3631361760660248
+    },
+    "observed_vision": {
+      "low_n": 62,
+      "low_error_rate": 0.3387096774193548,
+      "high_n": 666,
+      "high_error_rate": 0.36486486486486486
+    }
+  }
+}
